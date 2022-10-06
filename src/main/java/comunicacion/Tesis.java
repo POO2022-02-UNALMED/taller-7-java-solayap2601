@@ -25,7 +25,7 @@ public class Tesis extends Escrito {
 		return interpretacion;
 	}
 
-	@Override
+
 	public String toString() {
 		String a= "";
 		a += getOrigen() + "\n"
@@ -33,7 +33,7 @@ public class Tesis extends Escrito {
 				+ getAutor() + "\n"
 				+ getPaginas() + "\n"
 				+ idea + "\n"
-				+ argumentos + "\n"
+				+ argumentos.length + "\n"
 				+ conclusion + "\n"
 				+ referencias;	
 		return a;
